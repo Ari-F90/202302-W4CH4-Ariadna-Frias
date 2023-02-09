@@ -1,6 +1,6 @@
-import { Keyboard } from "../../../features/keyboard/keyboard";
-import { Display } from "../../../features/display/display";
-import { Actions } from "../../../features/actions/actions";
+import { Keyboard } from "../../../features/components/keyboard/keyboard";
+import { Display } from "../../../features/components/display/display";
+import { Actions } from "../../../features/components/actions/actions";
 export function App() {
   return (
     <div className="container">
