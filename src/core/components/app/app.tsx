@@ -1,8 +1,14 @@
-import { Keyboard } from "../keyboard/keyboard";
+import { Keyboard } from "../../../features/keyboard/keyboard";
+import { Display } from "../../../features/display/display";
+import { Actions } from "../../../features/actions/actions";
 export function App() {
   return (
     <div className="container">
-      <Keyboard></Keyboard>
+      <Display></Display>
+      <main className="phone">
+        <Keyboard></Keyboard>
+        <Actions></Actions>
+      </main>
     </div>
   );
 }
