@@ -1,5 +1,4 @@
 export function Keyboard() {
-  //const { tasks } = useContext(AppContext);
   return (
     <div className="keyboard-container">
       <ol className="keyboard">
