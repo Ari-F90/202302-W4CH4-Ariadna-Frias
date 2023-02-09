@@ -4,9 +4,9 @@ import { Keyboard } from "../../../features/components/keyboard/keyboard";
 import { Display } from "../../../features/components/display/display";
 import { Actions } from "../../../features/components/actions/actions";
 
-jest.mock("../../../features/keyboard/keyboard");
-jest.mock("../../../features/display/display");
-jest.mock("../../../features/actions/actions");
+jest.mock("../../../features/components/keyboard/keyboard");
+jest.mock("../../../features/components/display/display");
+jest.mock("../../../features/components/actions/actions");
 
 describe("Given App component", () => {
   describe("When it is render", () => {
