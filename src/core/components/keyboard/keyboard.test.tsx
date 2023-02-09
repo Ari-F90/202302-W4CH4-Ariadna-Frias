@@ -4,10 +4,11 @@ import { Keyboard } from "./keyboard";
 
 describe("Given a Keyboard component", () => {
   describe("When it is rendered", () => {
-    test("then it should be one ordered list in the document", () => {
+    test("then it should be an image in the document", () => {
       render(<Keyboard />);
-      const element = screen.getByRole("listitem");
-      expect(element).toBeInTheDocument();
+      const element = screen.getAllByRole("button");
+      const elementCount = 11;
+      expect(element.length).toBe(elementCount);
     });
   });
 });
