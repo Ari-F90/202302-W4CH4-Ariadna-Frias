@@ -14,10 +14,25 @@ Al pulsar el botón "Colgar", éste debe desaparecer y debe aparecer en su lugar
 Si no ocurre nada tras cinco segundos de llamada, ésta se debe colgar automáticamente.
 Separa todo en los siguientes componentes:
 
-Info
-Display
-Actions
-Action
-Keyboard
-Key
-Entrega también un listado de responsabilidades.
+Responsabilidades
+
+INFO:
+
+- Texto calling/call ended.
+
+DISPLAY:
+
+- Muestra los números marcados.
+
+KEYBOARD
+
+- Conjunto de números y delete.
+
+KEY
+
+- Números individualmente.
+
+ACTION > actions:
+
+- Comprueba la longitud de 9 numeros maximo
+- muestra y controla los botones de llamar y colgar.
